@@ -114,7 +114,7 @@ AMAZON_SHIPMENT_TRACKING = [
     "verzending-volgen",
     "update-bestelling",
 ]
-AMAZON_EMAIL = ["order-update@", "update-bestelling@", "versandbestaetigung@"]
+AMAZON_EMAIL = ["order-update@", "update-bestelling@", "versandbestaetigung@", "confirmation-commande@"]
 AMAZON_PACKAGES = "amazon_packages"
 AMAZON_ORDER = "amazon_order"
 AMAZON_DELIVERED = "amazon_delivered"
@@ -128,6 +128,8 @@ AMAZON_HUB_EMAIL = [
     "order-update@amazon.com",
     "amazonlockers@amazon.com",
     "versandbestaetigung@amazon.de",
+    "order-update@amazon.fr",
+    "confirmation-commande@amazon.fr",
 ]
 AMAZON_HUB_SUBJECT = "ready for pickup from Amazon Hub Locker"
 AMAZON_HUB_SUBJECT_SEARCH = "(a package to pick up)(.*)(\\d{6})"
@@ -182,6 +184,8 @@ AMAZON_LANGS = [
     "pt_BR.UTF-8",
     "fr_CA",
     "fr_CA.UTF-8",
+    "fr_FR",
+    "fr_FR.UTF-8",    
     "",
 ]
 
